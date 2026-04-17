@@ -13,3 +13,5 @@ number,string,boolean,underfined,null,void,object,array,tuple and any,never, unk
 ### syntax
 
 let variableName : type = value
+
+45:31
