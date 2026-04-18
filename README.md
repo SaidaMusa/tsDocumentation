@@ -14,4 +14,14 @@ number,string,boolean,underfined,null,void,object,array,tuple and any,never, unk
 
 let variableName : type = value
 
-45:31
+36:31
+
+### Primitive types
+
+String,number and boolean
+
+###Number
+There is no int float thing in ts just like js.Because JS doesnt have special runtime value for integers.It is for saving memory and whatever you write it just callbacks number maybe it is 5.5 or 4
+
+43:31
+
