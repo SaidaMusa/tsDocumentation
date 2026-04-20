@@ -25,3 +25,80 @@ There is no int float thing in ts just like js.Because JS doesnt have special ru
 
 43:31
 
+
+###Annotations
+
+
+
+let count: number; - here number is annotation
+
+
+
+
+### compile error
+
+let counter: number;
+counter = 'Hello'; // compile error 
+
+
+### array type annotations
+
+
+let arrayName: type[];
+
+
+### string array
+
+let names: string[] = ['John', 'Jane', 'Peter', 'David', 'Mary'];
+
+
+
+### objects
+
+let person: {
+  name: string;
+  age: number;
+};
+
+person = {
+  name: 'John',
+  age: 25,
+}; 
+
+
+
+### Function arguments & return types
+
+
+let greeting : (name: string) => string;
+
+
+greeting = function (name: string) {
+    return `Hi ${name}`;
+};
+
+
+
+
+### type inference
+
+let counter = 0;
+
+It is equivalent to the following statement:
+
+let counter: number = 0;
+
+
+### function
+
+function increment(counter: number) {
+    return counter++;
+}
+
+
+It is the same as:
+
+function increment(counter: number) : number {
+    return counter++;
+}
+
