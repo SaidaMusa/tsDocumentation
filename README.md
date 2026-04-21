@@ -102,3 +102,37 @@ function increment(counter: number) : number {
     return counter++;
 }
 
+
+
+### Number
+
+we have only numbers.if we have big integers we count them as a bigInt number.
+
+
+### decimal numbers
+
+let counter: number = 0;
+let x: number = 100, 
+    y: number = 200;
+
+
+### binary numbers
+
+The binary number uses a leading zero followed by a lowercase or uppercase letter  0b or 0B :
+
+
+let bin = 0b100;
+let anotherBin: number = 0B010;
+
+
+
+### Octal numbers
+
+let octal: number = 0o10;
+
+
+### Big Integers
+The big integers represent the whole numbers larger than 253 – 1. A Big integer literal has the n character at the end of an integer literal like this:
+
+let big: bigint = 9007199254740991n;
+    
