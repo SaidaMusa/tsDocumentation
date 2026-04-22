@@ -135,4 +135,66 @@ let octal: number = 0o10;
 The big integers represent the whole numbers larger than 253 – 1. A Big integer literal has the n character at the end of an integer literal like this:
 
 let big: bigint = 9007199254740991n;
+
+
+
+
+### String
+
+## With using backtick you can extra line your string.
+
+let description = `This TypeScript string can 
+span multiple 
+lines
+`;
+
+
+### Boolean
+
+&& - AND
+|| - OR
+!- NOT
+
+
+## functions
+function changeStatus(status: boolean): boolean {
+   //...
+}
+
+
+### Object
+
+# Option 1:
+let employee: {
+    firstName: string;
+    lastName: string;
+    age: number;
+    jobTitle: string;
+};
+
+
+employee = {
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 25,
+    jobTitle: 'Web Developer'
+};
+
+
+# Option 2:
+
+let employee: {
+    firstName: string;
+    lastName: string;
+    age: number;
+    jobTitle: string;
+} = {
+    firstName: 'John',
+    lastName: 'Doe',
+    age: 25,
+    jobTitle: 'Web Developer'
+};
+
+
+
     
