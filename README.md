@@ -406,3 +406,29 @@ Output:
 }
 
 
+### TypeScript any Type
+
+The TypeScript any type allows you to store a value of any type. It instructs the compiler to skip type-checking.
+Use the any type to store a value that you don’t know its type at the compile-time or when you migrate a JavaScript project over to a TypeScript project.
+
+### Unknown type
+
+
+let result: unknown;
+
+result = 1;
+result = 'hello';
+result = false;
+result = Symbol();
+result = { name: 'John' };
+result = [1, 2, 3];
+
+
+
+Feature	any	unknown
+Type Safety	No type-safety	Enforces type safety
+Operations	Operations can be performed without checks	Operations cannot be performed without type assertion (narrowing type)
+Use cases	Useful for dynamic values but unsafe.	Useful for dynamic values and safe because it requires validation before use.
+Type Checking	TypeScript compiler does not perform a type checking on an any variable.	TypeScript compiler enforces a type checking on an unknown variable.
+Common Scenarios	Used for migrating JavaScript codebase to TypeScript.	Used when handling data from external sources (API calls, databases, ..) where type validation is necessary.
+
