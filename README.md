@@ -432,3 +432,43 @@ Use cases	Useful for dynamic values but unsafe.	Useful for dynamic values and sa
 Type Checking	TypeScript compiler does not perform a type checking on an any variable.	TypeScript compiler enforces a type checking on an unknown variable.
 Common Scenarios	Used for migrating JavaScript codebase to TypeScript.	Used when handling data from external sources (API calls, databases, ..) where type validation is necessary.
 
+
+
+### For
+
+
+## first look
+let i = 0;
+for (; ;) {
+    console.log(i);
+    i++;
+    if (i > 9) break;
+}
+
+### second look
+
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+}
+
+
+
+### while
+
+let counter = 0;
+
+while (counter < 5) {
+    console.log(counter);
+    counter++;
+}
+
+
+### do while
+
+let i = 0;
+
+do {
+    console.log(i);
+    i++
+} while (i < 10);
+
