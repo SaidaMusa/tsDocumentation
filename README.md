@@ -324,5 +324,3 @@ TypeScript sizga:
 
 
 
-ham qilib beraman.
-```
