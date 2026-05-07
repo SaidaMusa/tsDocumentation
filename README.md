@@ -320,7 +320,5 @@ TypeScript sizga:
 * 📦 Large projectlarda qulaylik
 * 🔒 Compile-time error checking
 
-```
-
 
 
